@@ -33,3 +33,6 @@ LABEL = 'survived'
 
 DATASET_SPLIT_KEY = 'dataset_type'
 
+BASE_QUERY = '''
+    Select * From `{Table}`
+  '''
